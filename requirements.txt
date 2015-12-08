@@ -1,0 +1,4 @@
+PyYAML >= 3.11
+requests >= 2.7.0
+dnspython >= 1.11.1 ; python_version < 3.0
+dnspython3 >= 1.11.1 ; python_version >= 3.0
