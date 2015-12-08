@@ -1,0 +1,7 @@
+[Unit]
+Description=Hurricane Electric tunnel endpoint and dns updater
+
+[Service]
+User=jjulian
+Type=oneshot
+ExecStart=/home/jjulian/.venv/he-update.py3/bin/he-update
