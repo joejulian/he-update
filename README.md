@@ -30,8 +30,11 @@ At https://tunnelbroker.net get your ```Tunnel ID``` from your tunnel details. (
 
 Select the ```Advanced``` tab and configure ```HE Dynamic DNS Settings```. 
 * Set the hostname to the fqdn of the A record you enabled above. (myhost.domain.dom in the example)
-* Set the username to your username when logging in to tunnelbroker.net. (myuser in the example)
-* Set the API key to an unguessable string. (mysupersecretpassword in the example)
+* Set the Update Key to an unguessable string. (mysupersecretpassword in the example)
+* Set the API Key to the key from the dynamic dns entry
+
+The username, below, is the username used when logging in to tunnelbroker.net (myuser in the example).
+
 
 ### Create config file
 
